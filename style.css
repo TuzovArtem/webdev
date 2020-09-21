@@ -1,0 +1,174 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+
+
+.container{
+  max-width: 1600px;
+  background-image:url(assets/bg-image.jpg);
+  height: 743px;
+  margin:0 auto;
+}
+
+a{
+  color:#fff;
+  font-size: 14px;
+  line-height: 46px;
+  text-decoration: none;}
+
+ul{
+  display: flex;
+  justify-content: center;
+  padding-top: 26px;
+  }
+
+  li{
+    display: block;
+    margin:0 42px;
+  }
+
+  li:nth-child(3){
+    margin:0 60px;
+   
+  }
+
+/******************** YOUR LIFE   *************************/
+
+.your_life{
+  color:#fff;
+  text-align: center;
+  margin-top: 145px;
+}
+
+.your_life h2{
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing:4px;
+}
+
+.your_life p{
+  padding-top: 32px;
+  line-height: 120%;
+  font-size: 18px;
+}
+
+.button{
+  margin-top: 33px;
+  background-color:#00AFDB;
+  width: 184px;
+  height: 46px;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.your_life .social{
+  margin-top: 175px;
+}
+.social a{
+  padding:0 13px;
+}
+
+.social a svg:hover path{
+  fill:red;
+}
+
+.your_life h1{
+  display: none;
+}
+
+/******************** Rapresent   *************************/
+
+
+.wrapper{
+  max-width: 1600px;
+  margin: 0 auto;
+  background:#fff
+}
+.rappresent_content{
+  display: flex;
+}
+.rappresent_discription{
+  margin-top: 295px;
+  margin-left: 269px;
+  margin-right: 255px;
+}
+.rappresent_discription h3{
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 120%;
+  padding-right: 30px;
+  letter-spacing:1px;
+}
+
+.rappresent_discription p{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height:145%
+}
+
+
+.rappresent_content img{
+  margin-top: 120px;
+  margin-bottom: 140px;
+  margin-right: 269px;
+}
+
+.rappresent_discription p b{
+  font-weight: 900;
+}
+
+.button:hover{
+  background-color:rgb(39, 89, 102);
+}
+
+
+/******************** OUR COMMUNITY   *************************/
+
+.our_community .wrapper{
+  background:#F5F6F7;
+}
+
+.our_community_content{
+  display: flex;
+}
+
+.our_community_content_slider img{
+  padding-top: 95px;
+  padding-bottom: 140px;
+}
+
+.our_community_content_user{
+text-align: center;
+}
+
+.our_community_content_user img{
+  margin-top: 153px;
+  margin-left: 130px;
+}
+
+.our_community_content_user h4{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.our_community_content_user p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 17px;
+  margin-left: 270px;
+  margin-right: 143px;
+  line-height:135%
+}
+
+/******************** Implement   *************************/
